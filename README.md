@@ -1,8 +1,4 @@
-\section{Updated Problem Statement}
-
 Under what geometric conditions (array aperture, antenna count, and user angular separation) does a sub-6 GHz MU-MIMO channel matrix approach the effective rank collapse characteristic of keyhole channels, and how does this impact Zero-Forcing beamforming performance?
-
-\section{Motivation and Relevance}
 
 This course emphasizes array processing, beamforming, and spatial separability, all of which depend on the array manifold structure and the linear independence of steering vectors. While classical MU-MIMO theory assumes independent and well-conditioned Rayleigh fading channels, enabling spatial multiplexing via linear precoding (ex. Zero Forcing), real deployments often violate these assumptions.
 
