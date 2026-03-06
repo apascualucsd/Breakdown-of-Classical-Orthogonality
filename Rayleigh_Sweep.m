@@ -71,7 +71,6 @@ xlabel('Number of Users (K)');
 ylabel('Average Channel Rank');
 title('Rayleigh Channel: Rank vs Number of Users');
 legend('M=8','M=16','M=32','M=64','Location','best');
-set(gca, 'XDir','reverse');
 
 xlim([min(K)-0.5 max(K)+0.5])
 ylim([0 max(avg_rank_Rayleigh(:))*1.1])
@@ -89,7 +88,6 @@ xlabel('Number of Users (K)');
 ylabel('Average ZF Sum-Rate (bits/s/Hz)');
 title('Rayleigh Channel: ZF Sum-Rate vs Number of Users');
 legend('M=8','M=16','M=32','M=64','Location','best');
-set(gca, 'XDir','reverse');
 
 xlim([min(K)-0.5 max(K)+0.5])
 ylim([0 max(real(avg_rate_Rayleigh(:)))*1.1])
@@ -107,6 +105,5 @@ xlabel('Number of Users (K)');
 ylabel('Average Condition Number');
 title('Rayleigh Channel: Condition Number vs Number of Users');
 legend('M=8','M=16','M=32','M=64','Location','best');
-set(gca, 'XDir','reverse');
 
 xlim([min(K)-0.5 max(K)+0.5])
